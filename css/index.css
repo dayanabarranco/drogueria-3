@@ -1,0 +1,28 @@
+.descripciondrogueria{
+    text-align: justify;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+.copyright {
+    position: fixed;
+    bottom: 10px; /* Ajusta la posición vertical según necesites */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #5f0c2f;
+    animation: moveCopyright 6s linear infinite;
+}
+
+/* Definición de la animación */
+@keyframes moveCopyright {
+    0% {
+        transform: translateX(-70%);
+    }
+    50% {
+        transform: translateX(-60%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
